@@ -1,0 +1,129 @@
+/* CSS Document */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header CSS */
+.header {
+    padding: 30px;
+    text-align: center;
+    background-color: #2436D5;
+	margin: 1px;
+	color: #FFF;
+}
+
+.heading h1 {
+    font-size: 40px;
+}
+
+/* Top Style*/
+.topnavagation {
+    overflow: hidden;
+    background-color: #9B9BFF;
+	margin: 5px;
+}
+
+/* Top Style link */
+.topnavagation a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+/* Top Style hovering */
+.topnavagation a:hover {
+    background-color: #2436D5;
+    color: #000;
+}
+
+/* My colums*/
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* image */
+.img {
+    width: 100%;
+    padding: 20px;
+}
+#img-fluid{
+	padding: 2px;
+	
+}
+.img-fluid{
+	padding: 10px;
+	width: 200px;
+	height: 200px;
+	
+}
+@media (min-width: 576px) {
+  .img-fluid {
+    max-width: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .img-fluid{
+    max-width: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-fluid {
+    max-width: 160px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img-fluid{
+    max-width: 200px;
+  }
+}
+
+/* effect on the content,it is like the backgroung which it is placed */
+.color {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#color {
+    background-color: #9B9BFF;
+    padding: 12px;
+    margin-top: 8px;
+}
+
+/*floats*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #2436D5;
+    margin-top: 20px;
+	color: #FFF;
+}
+
