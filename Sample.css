@@ -1,0 +1,176 @@
+/* CSS Document */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+.container {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Header CSS */
+.header {
+    padding: 30px;
+    text-align: center;
+    background-color: #2436D5;
+	margin: 1px;
+	color: #FFF;
+}
+
+.heading h1 {
+    font-size: 40px;
+}
+
+/* Top Style*/
+.topnavagation {
+    overflow: hidden;
+    background-color: #FFF;
+	margin: 5px;
+}
+
+/* Top Style link */
+.topnavagation a {
+    float: left;
+    display: block;
+    color: #2436D5;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+/* Top Style hovering */
+.topnavagation a:hover {
+    background-color: #2436D5;
+	 color: #fff;
+}
+
+   /* My colums*/
+/* Left column */
+.Middlecolumn {   
+    float: left;
+    width: 55%;
+	padding: 3px;
+}
+
+/* Right column */
+.rightcolumn {
+    float: right;
+    width: 23%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+.leftcolumn {
+    float: left;
+    width: 23%;
+    background-color: #f1f1f1;
+    padding-right: 20px;
+}
+/* image */
+.img {
+    width: 100%;
+    padding: 20px;
+}
+#img-fluid{
+	padding: 2px;
+	
+}
+.img-fluid{
+	padding: 15px;
+	width: 180px;
+	height: 160px;
+	
+}
+@media (min-width: 576px) {
+  .img-fluid {
+    max-width: 70px;
+	max-height: 60px;
+  }
+}
+@media (min-width: 768px) {
+  .img-fluid{
+    max-width: 110px;
+	max-height: 90px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-fluid {
+    max-width: 150px;
+	max-height: 130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img-fluid{
+    max-width: 175px;
+	max-height: 160px;
+  }
+}
+
+/* effect on the content,it is like the backgroung which it is placed */
+.color {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#color {
+    background-color: #9B9BFF;
+    padding: 12px;
+    margin-top: 8px;
+}
+.text{
+	padding: 10px;
+	
+}
+/*floats*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #2436D5;
+    margin-top: 20px;
+	color: #FFF;
+}
+
+/* CSS Document */
+
